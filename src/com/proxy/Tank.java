@@ -8,6 +8,7 @@ public class Tank implements Moveable {
 	public void move() {
 		// TODO Auto-generated method stub
 		System.out.println("Tank Moving...");
+		System.out.println("my seconde linux commit");
 		try {
 			Thread.sleep(new Random().nextInt(10000));
 		} catch (InterruptedException e) {
